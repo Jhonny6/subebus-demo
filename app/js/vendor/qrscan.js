@@ -1,4 +1,4 @@
-import {snackbar} from "../snackbar.js";
+//import {snackbar} from "../snackbar.js";
 
 var QRReader = {};
 
@@ -104,7 +104,7 @@ QRReader.init = () => {
 	function showErrorMsg() {
 		document.querySelector('.app__overlay').style.display = "none";
 		document.querySelector('.app__header-icon svg').style.fill = '#212121';
-		snackbar.show('Unable to open the camera, provide permission to access the camera', 10000);
+		//snackbar.show('Unable to open the camera, provide permission to access the camera', 10000);
 	}
 }
 
