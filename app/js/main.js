@@ -1,5 +1,5 @@
 import QRReader from './vendor/qrscan.js';
-//import {snackbar} from './snackbar.js';
+import {snackbar} from './snackbar.js';
 import styles from '../css/styles.css';
 import isURL from 'is-url';
 
@@ -8,7 +8,7 @@ if ("serviceWorker" in navigator) {
   navigator.serviceWorker.ready.then((registration) => {
     if (!localStorage.getItem("offline")) {
       localStorage.setItem("offline", true);
-      //snackbar.show('App is ready for offline usage.', 5000);
+      snackbar.show('App is ready for offline usage.', 5000);
     }
   });
 }
