@@ -2,10 +2,10 @@
   "name": "subebus",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/bundle.js"
+    "start": "node dist/index.html"
   },
   "engines": {
     "node": "^4.5",
