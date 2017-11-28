@@ -1,3 +1,4 @@
+var jsdom = require('jsdom');
 var snackbar = {};
 var snackBarElement = document.querySelector('.app__snackbar');
 var snackbarMsg = null;
