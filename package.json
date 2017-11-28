@@ -4,7 +4,7 @@
   "description": "",
   "main": "bundle.js",
   "scripts": {    
-    "start": "node dist/bundle.js"
+    "start": "node app/js/main.js"
   },
   "engines": {
     "node": "^4.5",
