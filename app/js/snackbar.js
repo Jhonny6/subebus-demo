@@ -1,4 +1,4 @@
-var jsdom = require('jsdom');
+import document from 'global/document';
 var snackbar = {};
 var snackBarElement = document.querySelector('.app__snackbar');
 var snackbarMsg = null;
