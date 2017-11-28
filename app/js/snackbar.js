@@ -1,6 +1,5 @@
-import document from 'global/document';
 var snackbar = {};
-var snackBarElement = document.querySelector('.app__snackbar');
+var snackBarElement = document.querySelector('.app_snackbar');
 var snackbarMsg = null;
 
 //To show notification
@@ -12,7 +11,7 @@ snackbar.show = (msg, options=4000) => {
   }
   
   snackbarMsg = document.createElement('div');  
-  snackbarMsg.className = 'app__snackbar-msg';
+  snackbarMsg.className = 'app_snackbar-msg';
   snackbarMsg.textContent = msg;
   snackBarElement.appendChild(snackbarMsg);
 
